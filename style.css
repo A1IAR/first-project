@@ -1,0 +1,138 @@
+@import"./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./component/about.css";
+@import "./component/delivery.css";
+@import "./component/footer.css";
+.header {
+    background-image: url("./img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 465px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_content {
+
+}
+.hero_logo {
+font-family: "Montserrat", sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 30.03px;
+text-align: left;
+color: rgb(250, 251, 251);
+}
+.hero_address {
+  font-family: "montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.hero_number {
+font-family: "Montserrat";
+font-size: 20px;
+font-weight: 700;
+line-height: 30.4px;
+text-align: left;
+
+}
+.hero_info span {
+font-family: "Montserrat";
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+
+}
+.navigation {
+    padding-top:  46px;
+    padding-bottom: 36px;
+
+}
+.hero_info {
+    display: flex;
+    gap: 69px;
+    align-items: center;
+}
+.hero_info div {
+    display: flex;
+flex-direction: column;
+}
+.hero_nasty {
+    width: 137px;
+    height: 37px;
+    background-color: beige;
+ border-radius: 5px;
+ padding: 15px;
+ text-align: center;
+ width: Hug (132px)px;
+ height: Fixed (37px)px;
+ padding: 10px 18px 10px 18px;
+ gap: 10px;
+ border-radius: 5px 0px 0px 0px;
+ opacity: 0px;
+ margin-bottom: 24px;
+ 
+}
+.hero_title{
+color: #fff;
+font-family: "Montserrat";
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -1px;
+text-align: left;
+width: 647px;
+}
+.hero_intro {
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 400;
+line-height: 34.32px;
+text-align: left;
+color: #fff;
+width: 530px;
+margin-top: 24px;
+}
+.hero_block{
+    display: flex;
+    align-items: center;
+}
+.hero_block p {
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 210px;
+height: 48px;
+color: rgb(252, 252, 252);
+
+}
+.hero_btn {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27.36px;
+    text-align: center;
+    width: 277px;
+    height: 88px;
+    border-radius: 8px;
+    background-color:  #FED84C;
+    transition: all 0.3s ease-in-out;
+margin-top: 24px;
+}
+
+.hero_content{
+    margin-top: 188px;
+}
+.hero_btn:hover {
+    background-color: #FED84C;
+}
+.hero_btm {
+}
